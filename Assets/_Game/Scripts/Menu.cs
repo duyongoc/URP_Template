@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Doozy.Engine;
 using Doozy.Engine.UI;
 using UnityEngine;
 
@@ -16,7 +17,7 @@ public class Menu : MonoBehaviour
     #region UNITY
     private void Start()
     {
-        
+        btQuit.OnClick.OnTrigger.Event.AddListener(OnClickButtonQuit);
     }
 
     // private void Update()
@@ -27,6 +28,7 @@ public class Menu : MonoBehaviour
 
     private void OnClickButtonQuit()
     {
+        GameEventMessage.SendEvent("StartGame");
         Application.Quit();
     }
 

@@ -218,7 +218,7 @@ MonoBehaviour:
   m_version: 1
   m_description: 
   m_id: 132b81d2-1d80-46f0-98d6-d3465a1ca089
-  m_lastModified: 132689091703589699
+  m_lastModified: 132691153275624611
 --- !u!114 &1367321217088049885
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -365,6 +365,32 @@ MonoBehaviour:
     m_value: '{"ButtonCategory":"General","ButtonName":"Exit","GameEvent":"","TimeDelay":3.0,"Trigger":0}'
     m_valueTypeQualifiedName: Doozy.Engine.UI.Connections.UIConnection, Assembly-CSharp,
       Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - m_connectionMode: 0
+    m_connections:
+    - m_inputConnectionPoint: {x: 202, y: 4}
+      m_outputConnectionPoint: {x: 202, y: 4}
+      m_id: 4400f710-4f4e-4608-94cc-336d26582a82
+      m_inputNodeId: 249b5acf-579d-4744-ad6d-62725c22910a
+      m_inputSocketId: 29519656-2881-47fa-9c79-ad78aee3f87d
+      m_outputNodeId: 4ac64182-a496-48cb-ae05-77154b0a91e8
+      m_outputSocketId: c50e31af-4ceb-4c7b-be96-c8228f136a8e
+    m_connectionPoints:
+    - {x: -2, y: 4}
+    - {x: 202, y: 4}
+    m_direction: 1
+    m_canBeDeleted: 1
+    m_canBeReordered: 1
+    m_curveModifier: 0
+    m_height: 24
+    m_width: 216
+    m_x: 0
+    m_y: 158
+    m_id: c50e31af-4ceb-4c7b-be96-c8228f136a8e
+    m_nodeId: 4ac64182-a496-48cb-ae05-77154b0a91e8
+    m_socketName: OutputSocket_4
+    m_value: '{"ButtonCategory":"General","ButtonName":"Unnamed","GameEvent":"StartGame","TimeDelay":3.0,"Trigger":3}'
+    m_valueTypeQualifiedName: Doozy.Engine.UI.Connections.UIConnection, Assembly-CSharp,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   m_nodeType: 4
   m_allowDuplicateNodeName: 0
   m_allowEmptyNodeName: 0
@@ -373,7 +399,7 @@ MonoBehaviour:
   m_useFixedUpdate: 0
   m_useLateUpdate: 0
   m_useUpdate: 0
-  m_height: 200
+  m_height: 224
   m_width: 216
   m_x: -72
   m_y: -60
@@ -577,6 +603,13 @@ MonoBehaviour:
       m_inputSocketId: 29519656-2881-47fa-9c79-ad78aee3f87d
       m_outputNodeId: 47e521e9-e0eb-4115-b0b3-205e051c2348
       m_outputSocketId: aac05e58-bdfc-4596-8312-572ea20a34ee
+    - m_inputConnectionPoint: {x: 202, y: 4}
+      m_outputConnectionPoint: {x: 202, y: 4}
+      m_id: 4400f710-4f4e-4608-94cc-336d26582a82
+      m_inputNodeId: 249b5acf-579d-4744-ad6d-62725c22910a
+      m_inputSocketId: 29519656-2881-47fa-9c79-ad78aee3f87d
+      m_outputNodeId: 4ac64182-a496-48cb-ae05-77154b0a91e8
+      m_outputSocketId: c50e31af-4ceb-4c7b-be96-c8228f136a8e
     m_connectionPoints:
     - {x: -2, y: 4}
     - {x: 202, y: 4}
